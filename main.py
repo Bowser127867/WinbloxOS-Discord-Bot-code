@@ -22,15 +22,6 @@ izinler.message_content = True
 
 bot = commands.Bot(command_prefix="!",intents= izinler)
 
-
-def yazi_tura():
-    para = random.randint(0, 2)
-    if para == 0:
-        return "HEADS"
-    else:
-        return "TAILS"
-
-
 @bot.event
 async def on_ready():
     print(f"{bot.user.name} has been started...Installing the codes from the WinbloxOS Servers...")
