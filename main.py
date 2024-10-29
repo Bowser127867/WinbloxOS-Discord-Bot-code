@@ -41,6 +41,5 @@ async def on_message(message):
         await message.channel.send(f"not loud enough.")
     elif message.content.startswith("BOO!") or message.content.startswith("boo!"):
         await message.channel.send(f"AAAAA---*dies*")
-    elif message.content.startswith('$coin'):
 
 bot.run(TOKEN)
