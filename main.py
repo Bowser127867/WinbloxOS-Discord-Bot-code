@@ -42,6 +42,5 @@ async def on_message(message):
     elif message.content.startswith("BOO!") or message.content.startswith("boo!"):
         await message.channel.send(f"AAAAA---*dies*")
     elif message.content.startswith('$coin'):
-        await message.channel.send(yazi_tura())
 
 bot.run(TOKEN)
